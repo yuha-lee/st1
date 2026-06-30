@@ -14,7 +14,7 @@
   dct:creator "admin@example.com";
   dct:modified "2026-06-30T09:10:21.042Z"^^xsd:dateTime;
   dct:title "aa"@en;
-  <http://purl.org/ontology/bibo/status> <http://purl.org/spar/pso/draft>;
+  <http://purl.org/ontology/bibo/status> <http://purl.org/spar/pso/published>;
   vaem:namespace "http://ontologies.metaphacts.com/aa/"^^xsd:anyURI;
   rdfs:label "aa"@en;
   owl:versionInfo "0.1" .
