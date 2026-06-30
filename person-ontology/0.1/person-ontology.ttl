@@ -12,9 +12,18 @@
   dct:contributor "admin@example.com";
   dct:created "2026-06-30T11:03:49.133Z"^^xsd:dateTime;
   dct:creator "admin@example.com";
-  dct:modified "2026-06-30T11:03:49.133Z"^^xsd:dateTime;
+  dct:modified "2026-06-30T11:04:17.981Z"^^xsd:dateTime;
   dct:title "Person Ontology"@en;
   <http://purl.org/ontology/bibo/status> <http://purl.org/spar/pso/draft>;
   vaem:namespace "http://ontologies.metaphacts.com/person-ontology/"^^xsd:anyURI;
   rdfs:label "Person Ontology"@en;
   owl:versionInfo "0.1" .
+
+:Person a owl:Class;
+  <http://open-services.net/ns/core#modifiedBy> "admin@example.com";
+  dct:contributor "admin@example.com";
+  dct:created "2026-06-30T11:03:55.016Z"^^xsd:dateTime;
+  dct:creator "admin@example.com";
+  dct:modified "2026-06-30T11:03:55.016Z"^^xsd:dateTime;
+  rdfs:isDefinedBy :0.1;
+  rdfs:label "Person"@en .
